@@ -1,0 +1,133 @@
+.smg{
+    width: 90vw;
+    min-height: 300px;
+    border: 2px solid rgb(73, 219, 29);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 15px;
+    gap: 12px;
+    align-items: center;
+     border-radius: 12px 60px;
+     box-shadow: 2px 2px 2px rgba(225, 6, 6, 0.667);
+    transition: 0.7s;
+
+
+    img{
+        width: 40%;
+        border-radius: 12px 60px;
+        box-shadow: 2px 2px 2px rgba(225, 6, 6, 0.667);
+    }
+}
+.msg{
+        width: 40%;
+
+
+    h1{
+        text-align: center;
+
+    }
+    
+    p{
+        text-align: center;
+   
+    }
+}
+.smg:hover{
+    transform: translateY(-12px);
+    background-color: rgba(0, 255, 255, 0.712);
+}
+body{
+    padding: 20px 6px ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.mng{
+    width: 90vw;
+    min-height: 300px;
+    border: 2px solid blueviolet;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    box-shadow: 2px 2px 2px purple;
+     transition: 0.7s;
+     border-radius: 12px 60px;
+
+    img{
+        border-radius: 60px 12px;
+        width: 40%;
+       
+    }
+}
+
+.mng:hover{
+    transform: translateY(-12px);
+    background-color: blueviolet;
+    
+}
+.xmg{
+    width: 90vw;
+    min-height: 300px;
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: center;
+    align-content: center;
+    border: 3px solid red;
+    border-radius: 12px 60px;
+    gap: 12px;
+    transition: 0.7s;
+
+
+    h2{
+        text-align: center;
+        align-items: center;
+        width: 100%;
+    }
+    
+
+    img{
+       width: 45%;
+       
+        
+    }
+}
+.xmg:hover{
+    transform: translateY(-12px);
+    background-color: darkorange;
+}
+
+.ghg{
+    width: 90vw;
+    min-height: 300px;
+    border: 3px solid darkcyan;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    border-radius: 12px 60px;
+    gap: 12px;
+    transition: 0.7s;
+
+
+    h2{
+        text-align: center;
+        align-items: center;
+        width: 100%;
+    }
+
+
+    img{
+        width: 25%;
+    };
+
+   
+}
+ .ghg:hover{
+        transform: translateY(-12px);
+        background-color: rgb(55, 250, 250);
+    }
